@@ -2,7 +2,7 @@ import MenuItem from './MenuItem';
 
 const Menu = ({ menu }) => {
     return (
-        <div className='center'>
+        <div className='section-center'>
             {menu.map((item) => (
                 <MenuItem key={item.id} {...item} />
             ))}

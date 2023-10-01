@@ -7,9 +7,11 @@ const App = () => {
     const [menu, setMenu] = useState(data);
 
     return (
-        <main className='menu'>
-            <Title text='Our menu' />
-            <Menu menu={menu} />
+        <main>
+            <section className='menu'>
+                <Title text='Our menu' />
+                <Menu menu={menu} />
+            </section>
         </main>
     );
 };
